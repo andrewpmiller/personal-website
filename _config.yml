@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -31,11 +31,11 @@ projects:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
-  # linkedin: your_username
-  # medium: @your_username
+  # linkedin: andrewpmiller
+  # medium: @andrewpmiller
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+  # twitter: andrewpmiller
   # youtube: your_username
   # vk: your_username
 
@@ -49,3 +49,9 @@ topics:
   - name: Sass
     web_url: https://github.com/topics/sass
     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
+
+exclude:
+  - 'docker-compose.yml'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'README.md'
